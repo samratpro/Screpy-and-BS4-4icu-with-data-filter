@@ -1,0 +1,56 @@
+# Define here the models for your scraped items
+#
+# See documentation in:
+# https://docs.scrapy.org/en/latest/topics/items.html
+
+import scrapy
+
+
+class IcuItem(scrapy.Item):
+    country_name = scrapy.Field()
+    url = scrapy.Field()
+    university_name = scrapy.Field()
+    country_rank = scrapy.Field()
+    world_rank = scrapy.Field()
+    name = scrapy.Field()
+    name_t = scrapy.Field()
+    name_t_t = scrapy.Field()
+    Acronym = scrapy.Field()
+    Founded = scrapy.Field()
+    Motto = scrapy.Field()
+    Address = scrapy.Field()
+    Tel = scrapy.Field()
+    Fax = scrapy.Field()
+    Local_students = scrapy.Field()
+    International_students = scrapy.Field()
+    Selection_Type = scrapy.Field()
+    Admission_Rate = scrapy.Field()
+    Admission_Office = scrapy.Field()
+    Student_Enrollment = scrapy.Field()
+    Academic_Staff = scrapy.Field()
+    Control_Type = scrapy.Field()
+    Entity_Type = scrapy.Field()
+    Academic_Calendar = scrapy.Field()
+    Campus_Setting = scrapy.Field()
+    Religious_Affiliation = scrapy.Field()
+    Library = scrapy.Field()
+    Housing = scrapy.Field()
+    Sport_Facilities = scrapy.Field()
+    Financial_Aids = scrapy.Field()
+    Study_Abroad = scrapy.Field()
+    Distance_Learning = scrapy.Field()
+    Academic_Counseling = scrapy.Field()
+    Career_Services = scrapy.Field()
+    Institutional_Hospital = scrapy.Field()
+    other_locations = scrapy.Field()
+    flag_img = scrapy.Field()
+    uni_logo = scrapy.Field()
+    screenshort = scrapy.Field()
+    subject = scrapy.Field()
+    wiki = scrapy.Field()
+    facebook = scrapy.Field()
+    twitter = scrapy.Field()
+    linkedin = scrapy.Field()
+    youtube = scrapy.Field()
+    instagram = scrapy.Field()
+    pass
